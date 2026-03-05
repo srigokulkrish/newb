@@ -398,12 +398,12 @@
         if ($(this).is(":checked")) {
             $(".price").each(function () {
                 var yearPrice = $(this).data("year");
-                $(this).html('<span class="currency">$</span>' + yearPrice + '<span class="duration">/Year</span>');
+                $(this).html('<span class="currency">₹</span>' + yearPrice + '<span class="duration">/Year</span>');
             });
         } else {
             $(".price").each(function () {
                 var monthPrice = $(this).data("month");
-                $(this).html('<span class="currency">$</span>' + monthPrice + '<span class="duration">/Month</span>');
+                $(this).html('<span class="currency">₹</span>' + monthPrice + '<span class="duration">/Month</span>');
             });
         }
     });

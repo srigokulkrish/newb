@@ -1112,6 +1112,9 @@ label {
   visibility: visible;
   top: 100%;
 }
+.header-navigation .main-menu ul > li.active > a {
+  color: var(--primary-color) !important;
+}
 .header-navigation .navbar-toggler {
   padding: 11px 7px;
   border: 1px solid var(--heading-color);
